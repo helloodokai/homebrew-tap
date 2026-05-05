@@ -6,3 +6,10 @@ Install acig:
 brew tap helloodokai/tap
 brew install acig
 ```
+
+Install charter:
+
+```bash
+brew tap helloodokai/tap
+brew install charter
+```
