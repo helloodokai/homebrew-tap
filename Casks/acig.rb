@@ -1,6 +1,6 @@
 cask "acig" do
-  version "1.3.2"
-  sha256 "82219fd4463c3b70fbe5fbd6d46a5cd6b959a1a46e739cd5ecffb077002b227b"
+  version "1.4.0"
+  sha256 "93229be787fd9ab92feaa6b6bd6ef08f7b89dd55ceed52b479280c1d463a36e7"
 
   url "https://github.com/helloodokai/acig/releases/download/v#{version}/acig_darwin_arm64.tar.gz"
   name "acig"
@@ -10,7 +10,7 @@ cask "acig" do
   binary "acig"
 
   on_intel do
-    sha256 "ad4efb6c728b4dfd58a4910bf156b7bdecea6a3852f8c0fd1ebf709493cc8d02"
+    sha256 "f2e1e1ad4bbfabf71fd0a19e2316419d31cb8148d0c079ee75d262439abcc14c"
     url "https://github.com/helloodokai/acig/releases/download/v#{version}/acig_darwin_amd64.tar.gz"
   end
 end
